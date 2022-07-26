@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Celsius para Fahrenheit</title>
+    <style type="text/css">
+        
+        body{
+            background-color: black;
+        }
+        hgroup{
+            color: antiquewhite;
+        }
+        h3#RES{
+            color: antiquewhite;
+            position: absolute;
+            top: 187px;
+        }
+        div#Gres{
+            color: antiquewhite;
+            position: absolute;
+            top: 210px;
+            left: 110px;
+        }
+        h3#RES2{
+            color: antiquewhite;
+            position: absolute;
+            top: 100px;
+        }
+        div#Fres{
+            color: antiquewhite;
+            position: absolute;
+            top: 122px;
+            left: 80px;
+        }
+        div#Fahrenheit{
+            color: antiquewhite;
+            position: absolute;
+            top: 250px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <hgroup>
+        <h1>Conversor de Celsius para Fahrenheit</h1>
+        <h2> Digite os Graus em Celsius </h2>
+    </hgroup>
+        <input type="text" id="graus">
+        <button onclick="resFah()"> Resultado </button>
+    </div>
+    </body>
+    <div id="res"> Resultado 
+        <h3 id="RES">Fahrenheit:</h3> <div id="Gres">
+            =
+        </div>
+    </div>
+    <div id="Fahrenheit">
+        <h2> Digite os Graus em Fahrenheit </h2>
+        <input type="text" id="grausF">
+        <button onclick="resCel()"> Resultado </button>
+        <h3 id="RES2">Celsius:</h3> <div id="Fres">
+            =
+        </div>
+    </div>
+    <script>
+        
+
+        function resFah(){
+            let celsius = 0;
+            let fahrenheit = 0;
+            celsius = document.getElementById('graus').value;
+            parseFloat(celsius);
+            fahrenheit = (9*celsius/5) + 32;
+            document.getElementById('Gres').innerHTML = fahrenheit;
+        }
+        function resCel(){
+            let celsius = 0;
+            let fahrenheit = 0;
+            fahrenheit = document.getElementById('grausF').value;
+            parseFloat(fahrenheit);
+            celsius = 5 * (fahrenheit - 32) / 9;
+            document.getElementById('Fres').innerHTML = celsius;
+        }
+    </script>
+</body>
+</html>
