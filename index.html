@@ -8,38 +8,46 @@
     <title>Meu Portifolio</title>
 </head>
 <Header>
-<Ul><li id="home"> <a href="#">Inicio</a> </li> <li id="sobre"><a href="#">Sobre</a></li> <li id="contato"> <a href="#">Contato</a></li></Ul>
+    <nav id="menu">
+        <Ul>
+            <li id="inicio" class="Inicio">   <a href="#">Inicio</a>  </li> 
+            <li class="Sobre">  <a href="#">Sobre</a>   </li> 
+            <li class="Contato">   <a href="#">Contato</a> </li>
+        </Ul>
+</nav>
 </Header>
 <body>
-    <div>
-        <hgroup>
-        <h1> Edson Vitor de Sousa</h1>
-        <h2> Dev Front-End</h2>
+    <main>
+    <div id="eu" class="apre">
+        <hgroup class="titulo">
+        <h1 class="titulo1"> Edson Vitor de Sousa</h1>
+        <h2 class="titulo2"> Dev Front-End</h2>
         </hgroup>
-        <table>
+        <table class="table">
             <tr><td><a href="https://www.linkedin.com/in/edson-vitor-sousa-b59a76212/" target="_blank" id="redes">LinkedIn</a></td>
             <td><a href="https://github.com/edsonvitor2" target="_blank" id="redes">GitHub</a></td></tr>
         </table>
-        <img src="Eu3.png">
+        <img src="Eu3.png" class="eu">
     </div>
     <div id="projetos">
         <div id="conversor">
             <h1 id="title">Projetos Academicos</h1>
-            <h1 id="h1convert"> Conversor de Temperatura</h1>
-            <p id="convert"> Converte graus Celsius em Fahrenheit e </br>graus Fahrenheit em Celsius</p>
-            <img id="converte"src="ConversorImage.png" alt="">
-            <div id="frame">
-                <iframe src="conversor.html" frameborder="0" height="450px" width="400px"></iframe>
+            <h1 id="title2"> Conversor de Temperatura</h1>
+            <p> Converte graus Celsius em Fahrenheit e </br>graus Fahrenheit em Celsius</p>
+            <img class="conver" src="ConversorImage.png" alt="">
+            <div class="conver1">
+                <iframe class="frameconv" src="conversor.html" frameborder="0" height="450px" width="380px"></iframe>
             </div>
         </div>
         <div id="calculadora">
-            <h1 id="h1convert"> Calculadora </h1>
-            <p id="convert"> Calculadora simples </p>
-            <img id="calImag"src="iconeCal.png" alt="">
-            <div id="frame2">
-                <iframe src="Calculadora.html" frameborder="0" height="450px" width="500px"></iframe>
+            <h1 class="Hcal"> Calculadora </h1>
+            <p class="Hcal"> Calculadora simples </p>
+            <img class="cal1" id="calImag"src="iconeCal.png" alt="">
+            <div class="cal2" id="frame2">
+                <iframe src="Calculadora.html" frameborder="0" height="450px" width="300px"></iframe>
             </div>
         </div>
     </div>
+</main>
 </body>
 </html>

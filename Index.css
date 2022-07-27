@@ -1,130 +1,135 @@
 *{
     margin: 0;
-    font-size: 30px;
-}
-h1{
-    font-size: 40px;
-}
-h2{
-    font-size: 20px;
 }
 header{
-    background-color: #2F4F4F;
-    width: 100%;
-    height: 50px;
+    height: 40px;
+    min-width: 380px;
+    max-width: 1800px;
+    background-color:#2F4F4F;
+    padding: 10px;
 }
-body{
-    background-color: #c6c6c6;
+.Inicio{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
 }
 a{
+    text-decoration: none;
     color: #fff;
-    text-decoration: none;
 }
-a#redes{
-    color: #000;
-    text-decoration: none;
+.Sobre{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
 }
-li#home{
-    position: absolute;
-    top: 7px;
-    left: 10%;
-    list-style-type: none;
+.Contato{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
 }
-li#sobre{
-    position: absolute;
-    left: 40%;
-    top: 7px;
-    list-style-type: none;
+.titulo{
+    margin-left: 15%;
 }
-li#contato{
-    position: absolute;
-    left: 70%;
-    top: 7px;
-    list-style-type: none;
+.titulo1{
+    padding-top: 50px;
+}.titulo2{
+    padding-top: 5px;
 }
-img{
-    position: absolute;
-    left: 70%;
-    top:150px;
+.table{
+    margin: 10px;
+    margin-left: 15%;
+    width: 40%;
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.eu{
+    width: 20%;
     height: 300px;
-}
-hgroup{
-    position: absolute;
-    left: 30%;
-    top:250px;
-}
-tr{
-    position: absolute;
-    left: 30%;
-    top:350px;
+    display: inline-block;
+    margin-top: -50px;
+    margin-bottom: 100px;
 }
 td{
     border: solid;
-    margin-left: 5em;
     padding: 10px;
-}
-div#conversor{
-    position: absolute;
-    width: 100%;
-    height: 600px;
     background-color: #2F4F4F;
-    top: 600px;
 }
-div#calculadora{
-    position: absolute;
-    width: 100%;
-    height: 600px;
-    background-color: #2F4F4F;
-    top: 1200px;
+div#eu{
+    background-color: #C6C6C6;
+}
+div#projetos{
+    background-color:#2F4F4F;
 }
 h1#title{
-    font-size: 40px;
     text-align: center;
     color: #fff;
 }
-div#frame{
-    position: absolute;
-    left: 50%;
-    width: 500px;
-    height: 400px;
-    top:100px;
-}
-div#frame2{
-    position: absolute;
-    left: 50%;
-    width: 290px;
-    height: 400px;
-    top:100px;
+.conver{
+    display: inline-block;
+    width: 30%;
     border: solid;
-    background-color: #c8c8c8;
+    margin: 15px;
 }
-p#convert{
-    position: absolute;
-    left: 20px;
-    top: 200px;
-    font-size: 20px;
+.conver1{
+    display: inline-block;
+    margin-left: 15%;
+}
+h1#title2{
+    margin-left: 15px;
+    margin-top: 30px;
     color: #fff;
 }
-h1#h1convert{
-    position: absolute;
-    left: 20px;
-    top: 100px;
+p{
+    margin-left: 15px;
+    margin-top: 30px;
+    width: 80%;
     color: #fff;
 }
-img#converte{
-    position: absolute;
-    left: 20px;
-    top: 250px;
-    width: 200px;
-    height: 200px;
+.cal1{
+    display: inline-block;
+    width: 30%;
+}
+.cal2{
+    display: inline-block;
+    width: 21.4%;
+    height:400px ;
+    margin: 50px 30px 50px 300px;
     border: solid;
 }
-img#calImag{
-    background-color: #c6c6c6;
-    position: absolute;
-    left: 20px;
-    top: 250px;
-    width: 200px;
-    height: 200px;
-    border: solid;
+.Hcal{
+    margin-top: 50px;
+    margin-left: 15px;
+    color: #fff;
+}
+@media screen and (max-width: 700px) { 
+    .table{
+        width:70% ;
+        margin-top: 45%;
+        margin-bottom: 10px;
+    }
+    .eu{
+        width:70% ;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .conver1{
+        margin-left: 15px;
+        width: 70%;
+    }
+    .conver{
+        width: 30%;
+        margin-left: 15px;
+    }
+    .cal2{
+        width: 70%;
+        margin-left: 15px;
+    }
+    .titulo{
+        margin-top: 3px;
+    }
+    .table{
+        margin: 10px 15%;
+
+    }
 }
