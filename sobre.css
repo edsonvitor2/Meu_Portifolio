@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #c6c6c6;
+}
+header{
+    height: 40px;
+    min-width: 380px;
+    max-width: 1800px;
+    background-color:#2F4F4F;
+    padding: 10px;
+}
+.Inicio{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
+}
+.Sobre{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
+}
+.Contato{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+table{
+    margin-left: 10px;
+}
+td{
+    border: solid #000;
+    padding: 10px;
+    background-color: #2F4F4F;
+    text-align: center;
+}
+tr{
+    color: #fff;
+    font-size: 18px;
+}
+.eu{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.titulo{
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.tabela{
+    width: 40%;
+    display: inline-block;
+    margin-top: -300px;
+}
+.corpo{
+    height: 570px;
+    border: solid;
+}
+footer{
+    background-color: #000;
+}
+p#foot{
+    text-align: center;
+    color: #fff;
+}
+@media screen and (max-width: 700px){
+    .titulo{
+        width: 70%;
+    }
+    .tabela{
+        width: 95%;
+        margin-top: 1%;
+    }
+    .corpo{
+        height: 100%;
+    }
+}
