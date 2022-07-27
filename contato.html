@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="contato.css">
     <title>Meu Portifolio</title>
 </head>
 <Header>
@@ -17,7 +17,20 @@
 </nav>
 </Header>
 <body>
-    
+    <div id="for" class="formulario">
+    <H1>Formulario para Contato</H1>
+    <form action="https://formsubmit.co/edsoncousa@gmail.com" method="POST">
+        <p>Nome:</p><input type="text" name="name" required placeholder="Digite seu Nome"></br></br>
+        <p>Idade:</p><input type="number" name="idade" placeholder="Digite sua Idade"></br></br>
+        <p>Estado:</p><input type="text" name="estado" required placeholder="Digite seu Estado"></br></br>
+        <p>Email:</p><input type="email" name="email" required placeholder="Digite seu Email"></br></br>
+        <p>Mensagem:</p>
+        <textarea name="message" placeholder="Deixe aqui sua mensagem"></textarea>
+        <input type="hidden" name="_next" value="https://62e19a9bb370ec25989542db--edson-vitor-portifolio.netlify.app/contato.html">
+        </br></br>
+        <button type="submit">Send</button>
+   </form>
+   </div>
 </body>
 <footer>
     <p id="foot"> GOIANIA-GOIAS</p>
