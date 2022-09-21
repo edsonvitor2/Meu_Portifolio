@@ -10,40 +10,57 @@
 <Header>
     <nav id="menu">
         <Ul>
-            <li id="inicio" class="Inicio">   <a href="index.html">Inicio</a>  </li> 
-            <li class="Sobre">  <a href="sobre.html">Sobre</a>   </li> 
-            <li class="Contato">   <a href="contato.html">Contato</a> </li>
+            <li id="inicio" class="Inicio">   <a href="index.html"><button>Inicio</button></a>  </li> 
+            <li class="Sobre">  <a href="sobre.html"><button>Sobre</button></a>   </li> 
+            <li class="Contato">   <a href="contato.html"><button>Contato</button></a> </li>
         </Ul>
 </nav>
 </Header>
 <body>
-    <div id="eu" class="apre">
-        <hgroup class="titulo">
-        <h1 class="titulo1"> Edson Vitor de Sousa</h1>
-        <h2 class="titulo2"> Dev Front-End</h2>
+    
+    <div class="apre">
+        <hr>
+        <hgroup class="Htitle" >
+            <h1> Edson Vitor de Sousa</h1>
+            <h2> Dev Front-End</h2>
         </hgroup>
-        <table class="table">
-            <tr><td><a href="https://www.linkedin.com/in/edson-vitor-sousa-b59a76212/" target="_blank" id="redes">LinkedIn</a></td>
-            <td><a href="https://github.com/edsonvitor2" target="_blank" id="redes">GitHub</a></td></tr>
-        </table>
-        <img src="Eu3.png" class="eu">
+        <div>
+            <div class="link"> <a href="https://www.linkedin.com/in/edson-vitor-sousa-b59a76212/" target="_blank" id="redes">  <button> Linkedin </button></a>
+            </div>
+            <div class="git">
+            <a href="https://github.com/edsonvitor2" target="_blank" id="redes"><button> GitHub </button></a>
+            </div>
+            <img src="Eu3.png" class="eu">
+        </div>
     </div>
+    
     <div id="projetos">
+        <hr>
         <div id="conversor">
-            <h1 id="title">Projetos Academicos</h1>
-            <h1 id="title2"> Conversor de Temperatura</h1>
+            <h1 class="Ptitle">Projetos Academicos</h1>
+            <h1 class="subTitle"> Conversor de Temperatura</h1>
             <p id="legend"> Converte graus Celsius em Fahrenheit e </br>graus Fahrenheit em Celsius</p>
-            <img class="conver" src="ConversorImage.png" alt="">
-            <div class="conver1">
+            <img class="imgconver" src="ConversorImage.png" alt="">
+            <div class="conver">
                 <iframe class="frameconv" src="conversor.html" frameborder="0" height="450px" width="380px"></iframe>
             </div>
         </div>
-        <div id="calculadora">
-            <h1 class="Hcal"> Calculadora </h1>
-            <p id="legend" class="Hcal"> Calculadora simples </p>
+        <hr>
+        <div id="calculadora" class="calcula">
+            <h1  class="subTitle"> Calculadora </h1>
+            <p id="legend" class="Hcal"> Calculadora simples faz apenas 1 conta por vez</p>
             <img class="cal1" id="calImag"src="iconeCal.png" alt="">
             <div class="cal2" id="frame2">
                 <iframe src="Calculadora.html" frameborder="0" height="450px" width="300px"></iframe>
+            </div>
+        </div>
+        <hr>
+        <div id="jogo-velha" class="game">
+            <h1 class="subTitle"> Jogo da Velha </h1>
+            <p id="legend" class="des"> Jogue com um amigo. </p>
+            <img src="Games/jogoV.jpg" class="imgvelha" id="imgvelha"alt=''>
+            <div class="velha" id="velha">
+                <iframe src="Games/velha.html" frameborder="0" height="700px" width="450px"></iframe>
             </div>
         </div>
     </div>

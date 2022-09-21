@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="velha.css">
+</head>
+<body>
+    <main>
+        
+    
+<div class="Game">
+    <div>
+        <p>Escolha "X" ou "O" antes da partida</p>
+        <button class="btn" onclick="jogo.escolherX()"> X </button>
+        <button class="btn" onclick="jogo.escolherO()"> O </button>
+
+    </div>
+    <table id="jogo">
+        <tr>
+            <td id="1" class="btn"></td> <td id="2" class="btn"></td> <td id="3" class="btn"></td>
+        </tr>
+        <tr>
+            <td id="4" class="btn"></td> <td id="5" class="btn"></td> <td id="6" class="btn"></td>
+        </tr>
+        <tr>
+            <td id="7" class="btn"></td> <td id="8" class="btn"></td> <td id="9" class="btn"></td>
+        </tr>
+    </table>
+
+    <div class="display">
+
+    <div class="result">
+        <div class="legendVictory">
+            O vencedor foi = 
+        </div>
+        <div class="legendVictory2">
+            <h2 id="ganhador">-</h2>
+        </div>
+        <button class="btn-newGame" onclick="jogo.newGame()">Novo Jogo</button>
+    </div>
+        
+        <div class="placar">
+            <div id="vicX">
+                 <p class="vx">Vitoria x =</p> <p class="vx1"> 0 </p>
+            </div>
+            <div id="vicO">
+                <p class="vo">Vitoria O =</p> <p class="vo1"> 0 </p>
+            </div> 
+        </div>
+    </div>
+</div>
+    </main>
+
+    <script src="velha.js"></script>
+</body>
+</html>

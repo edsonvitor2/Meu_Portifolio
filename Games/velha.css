@@ -1,0 +1,135 @@
+table{
+    border: solid #000000;
+    box-shadow: 5px 3px 3px black;
+    background: linear-gradient(to top , #ff00bb, #005fff);
+    padding: 10px;
+    
+}
+
+body{
+    margin: 0;
+    background-size: 450px 700px;
+    width: 400px;
+    height: 600px;
+    background-image: url("fundoG.jpg");
+    background-repeat: repeat-y;
+}
+.Game{
+    margin-left: 115px;
+    margin-top: 70px;
+}
+.btn{
+    box-shadow: 5px 3px 3px black;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    border: solid #000000;
+    background: linear-gradient(to top , #ff00bb, #005fff);
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+  
+}
+.btn-newGame{
+    box-shadow: 5px 3px 3px black;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    background: linear-gradient(to top , #ff00bb, #005fff);
+    border: solid #000000;
+    margin-top: 10px;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+button.btn{
+    font-size: 55px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+
+}
+p{
+    color: #fff;
+}
+.display{
+    width: 300px;
+    height: 20px;
+    color: #fff;
+    margin-left:-35px;
+    margin-top: 10px;
+}
+.legendVictory{
+
+    width: 70%;
+    margin-top:1px;
+    margin-left:10px;
+    font-size: 30px;
+    float: left;
+
+}
+.result{
+    width:100%;
+    height: 40px;
+    border: solid black;
+    box-shadow: 5px 3px 3px black;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    background: linear-gradient(to top , #ff00bb, #005fff);
+}
+div.placar{
+    margin-top: 70px;
+}
+.legendVictory2{
+    
+    width: 5%;
+    font-size: 30px;
+    float: left;
+    
+}
+div#vicX{
+    margin-top: 15px;
+    height: 40px;
+    border: solid black;
+    box-shadow: 5px 3px 3px black;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    background: linear-gradient(to top , #ff00bb, #005fff);
+}
+.vx{
+    width: 45%;
+    margin-top:1px;
+    margin-left: 10px;
+    font-size: 30px;
+    float: left;
+}.vx1{
+    width: 5%;
+    margin-top:1px;
+    margin-left:10px;
+    font-size: 30px;
+    float: left;
+}
+.vo{
+    width: 50%;
+    margin-top:0px;
+    margin-left:10px;
+    font-size: 30px;
+    float: left;
+}.vo1{
+    width: 5%;
+    margin-top:1px;
+    margin-left:10px;
+    font-size: 30px;
+    float: left;
+}
+
+div#vicO{
+    margin-top: 15px;
+    height: 40px;
+    border: solid black;
+    box-shadow: 5px 3px 3px black;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    background: linear-gradient(to top , #ff00bb, #005fff);
+}
+table#jogo{-moz-border-radius: 10px; -webkit-border-radius: 10px; 
+    margin-left: -25px;
+}
