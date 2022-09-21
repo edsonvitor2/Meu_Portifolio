@@ -31,16 +31,18 @@ body{
   
 }
 .btn-newGame{
+    margin-top: 40px;
+}
+.newGame{
     box-shadow: 5px 3px 3px black;
     -moz-border-radius: 10px; -webkit-border-radius: 10px;
-    background: linear-gradient(to top , #ff00bb, #005fff);
     border: solid #000000;
-    margin-top: 10px;
+    background: linear-gradient(to top , #ff00bb, #005fff);
     color: #fff;
+    border: solid rgb(0, 0, 0);
+    width: 200px;
     height: 40px;
-    text-align: center;
     font-size: 20px;
-    margin-left: 45px;
 }
 button.btn{
     font-size: 55px;
@@ -61,17 +63,20 @@ p{
 }
 .legendVictory{
 
-    width: 60%;
+    width: 70%;
     margin-top:1px;
     margin-left:10px;
     font-size: 20px;
     float: left;
-
+}.legendVictory2{
+    width: 5%;
+    font-size: 20px;
+    float: left;
 }
 .result{
     margin-left:20px;
     width:80%;
-    height: 40px;
+    height: 30px;
     border: solid black;
     box-shadow: 5px 3px 3px black;
     -moz-border-radius: 10px; -webkit-border-radius: 10px;
@@ -80,13 +85,7 @@ p{
 div.placar{
     margin-top: 70px;
 }
-.legendVictory2{
-    
-    width: 5%;
-    font-size: 20px;
-    float: left;
-    
-}
+
 div#vicX{
     margin-top: -15px;
     height: 30px;
@@ -135,12 +134,13 @@ table#jogo{-moz-border-radius: 10px; -webkit-border-radius: 10px;
     margin-left: -25px;
 }
 /*@media screen and (max-width: 700px) { 
-    .btn-newGame{
+    .btn-newGames{
         margin-top: 10px;
         color: #fff;
         height: 40px;
         text-align: center;
         font-size: 20px;
-        margin-left: 500px;
+        margin-left: 50px;
+        margin-top: 30px;
     }
 }*/
