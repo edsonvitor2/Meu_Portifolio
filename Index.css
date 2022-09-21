@@ -170,7 +170,7 @@ p#legend{
     margin-left: 400px;
     float: left;
     width: 30%;
-    width:450px;
+
 }
 .calcula{
 
@@ -194,12 +194,12 @@ p#legend{
         float: left;
         margin-left:0px ;
         font-size: 15px;
-        width: 30%;
+        width: 25%;
     }
     .Sobre{
         float: left;
         font-size: 30px;
-        width: 30%;
+        width: 25%;
     }
     .Contato{
         float: left;
@@ -250,8 +250,7 @@ p#legend{
     .velha{
         margin-left: 0px;
         float: left;
-        width: 30%;
-        width:450px;
+        width:400px;
     }
     .game{
         padding-bottom: 100px;

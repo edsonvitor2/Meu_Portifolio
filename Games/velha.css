@@ -8,14 +8,14 @@ table{
 
 body{
     margin: 0;
-    background-size: 450px 700px;
-    width: 400px;
+    background-size: 400px 700px;
+    width: 350px;
     height: 600px;
     background-image: url("fundoG.jpg");
     background-repeat: repeat-y;
 }
 .Game{
-    margin-left: 115px;
+    margin-left: 90px;
     margin-top: 70px;
 }
 .btn{
@@ -37,11 +37,11 @@ body{
     border: solid #000000;
     margin-top: 10px;
     color: #fff;
-    height: 50px;
+    height: 40px;
     text-align: center;
-    font-size: 30px;
-    margin-left: 65px;
-    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 20px;
 }
 button.btn{
     font-size: 55px;
@@ -54,10 +54,10 @@ p{
     color: #fff;
 }
 .display{
-    width: 300px;
+    width: 250px;
     height: 20px;
     color: #fff;
-    margin-left:-35px;
+    margin-left:-15px;
     margin-top: 10px;
 }
 .legendVictory{
@@ -65,12 +65,13 @@ p{
     width: 70%;
     margin-top:1px;
     margin-left:10px;
-    font-size: 30px;
+    font-size: 20px;
     float: left;
 
 }
 .result{
-    width:100%;
+    margin-left:20px;
+    width:80%;
     height: 40px;
     border: solid black;
     box-shadow: 5px 3px 3px black;
@@ -83,13 +84,21 @@ div.placar{
 .legendVictory2{
     
     width: 5%;
-    font-size: 30px;
+    font-size: 20px;
     float: left;
     
 }
 div#vicX{
-    margin-top: 15px;
-    height: 40px;
+    margin-top: -15px;
+    height: 30px;
+    border: solid black;
+    box-shadow: 5px 3px 3px black;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px;
+    background: linear-gradient(to top , #ff00bb, #005fff);
+}
+div#vicO{
+    margin-top: 10px;
+    height: 30px;
     border: solid black;
     box-shadow: 5px 3px 3px black;
     -moz-border-radius: 10px; -webkit-border-radius: 10px;
@@ -98,38 +107,31 @@ div#vicX{
 .vx{
     width: 45%;
     margin-top:1px;
-    margin-left: 10px;
-    font-size: 30px;
+    margin-left: 50px;
+    font-size: 20px;
     float: left;
 }.vx1{
     width: 5%;
     margin-top:1px;
-    margin-left:10px;
-    font-size: 30px;
+    margin-left:0px;
+    font-size: 20px;
     float: left;
 }
 .vo{
     width: 50%;
     margin-top:0px;
-    margin-left:10px;
-    font-size: 30px;
+    margin-left:50px;
+    font-size: 20px;
     float: left;
 }.vo1{
     width: 5%;
     margin-top:1px;
-    margin-left:10px;
-    font-size: 30px;
+    margin-left:0px;
+    font-size: 20px;
     float: left;
 }
 
-div#vicO{
-    margin-top: 15px;
-    height: 40px;
-    border: solid black;
-    box-shadow: 5px 3px 3px black;
-    -moz-border-radius: 10px; -webkit-border-radius: 10px;
-    background: linear-gradient(to top , #ff00bb, #005fff);
-}
+
 table#jogo{-moz-border-radius: 10px; -webkit-border-radius: 10px; 
     margin-left: -25px;
 }
